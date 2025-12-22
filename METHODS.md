@@ -11,6 +11,7 @@
 | `ArrayDeque`    | `addFirst`, `addLast`, `removeFirst`, `removeLast`, `peekFirst`, `peekLast`          |
 | `TreeSet`       | `add`, `remove`, `first`, `last`, `contains`                                         |
 | `LinkedHashMap` | `put`, `get`, `containsKey`, `remove`                                                |
+| `Stack` | `pop`, `peek`, `push(a)`, `size`, `isEmpty` | 
 
 ---
 #### 1. `HashSet` : stores unique elements.
@@ -160,6 +161,22 @@ LinkedHashMap<String, Integer> lhm = new LinkedHashMap<>();
 * Maintains insertion order of keys.
 
 ---
+
+#### 10. `Stack`: FILO.
+
+```
+Stack<Integer> stack = new Stack<>();
+// use while loop to perform comparisons.
+```
+
+1. `pop()` : removes the last element.
+2. `peek()` : return the value of the last element but does not remove it. 
+3. `push(a)` : appends the `a` value.
+4. `suze()`
+5. `isEmpty` 
+
+---
+
 
 > Note: This concise cheat-sheet for the most common methods need for typical Interview/LeetCode 75 problems. Expand it further as you practice more problems.
 
